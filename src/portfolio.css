@@ -1,19 +1,43 @@
-h1 {
-  font-family: "Karma", serif;
-  font-weight: 700;
-  font-size: 60px;
+:root {
+  --branding-color: #002149;
+  --secondary-color: #d5e9ea;
+  --heading-font-family: "Karma", serif;
+  --default-font-family: "Zilla Slab", serif;
 }
-h2 {
-  font-family: "Zilla Slab", serif;
-  font-weight: 600;
-  font-size: 44px;
-  opacity: 0.8;
+body {
+  font-family: var(--default-font-family);
+}
+
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 72px;
+  margin-bottom: 0;
 }
 .center {
   text-align: center;
 }
-p {
-  font-family: "Zilla Slab", serif;
-  font-weight: 500;
+.hero {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 160px 0;
+}
+.hero p {
+  font-family: var(--default-font-family);
+  font-weight: 600;
   font-size: 30px;
+  margin: 0 0 10px;
+}
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 36px;
+  opacity: 0.8;
+}
+.btn-branding {
+  border-radius: 4px;
+  color: white;
+  background: var(--branding-color);
+  font-size: 17px;
+  padding: 15px 30px;
 }
