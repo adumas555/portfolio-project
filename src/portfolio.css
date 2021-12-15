@@ -15,12 +15,13 @@ h4 {
 }
 h1 {
   font-size: 72px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 48px;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 30px;
 }
@@ -34,7 +35,7 @@ p {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 0;
+  padding: 160px 20px;
 }
 .hero p {
   font-family: var(--default-font-family);
@@ -78,15 +79,19 @@ p {
     text-align: center;
   }
   .hero h1 {
-    font-size: 56px;
+    font-size: 44px;
+    line-height: 2;
   }
   .hero h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .hero p {
     font-size: 24px;
   }
   h2 {
     font-size: 40px;
+  }
+  .hero {
+    padding: 80px 20px;
   }
 }
