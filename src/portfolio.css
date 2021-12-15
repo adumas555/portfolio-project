@@ -7,15 +7,29 @@
 body {
   font-family: var(--default-font-family);
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 48px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
 
 .hero h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 72px;
   margin-bottom: 0;
-}
-.center {
-  text-align: center;
 }
 .hero {
   text-align: center;
@@ -40,4 +54,26 @@ body {
   background: var(--branding-color);
   font-size: 17px;
   padding: 15px 30px;
+  line-height: 27px;
+}
+.feature {
+  font-size: 20px;
+}
+.btn-branding-outline {
+  font-size: 17px;
+  padding: 15px 30px;
+  line-height: 27px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-weight: 500;
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 992px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
