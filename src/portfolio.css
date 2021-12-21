@@ -59,7 +59,12 @@ p {
 }
 
 .about-section {
-  padding: 160px 20px;
+  padding: 130px 20px;
+}
+
+.about-me {
+  background-color: var(--secondary-color);
+  padding-top: 50px;
 }
 
 .about-section h1 {
@@ -78,7 +83,7 @@ p {
 
 .my-cat {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .about-hobbies {
@@ -89,9 +94,13 @@ p {
   margin: 30px;
 }
 
+.about-p {
+  font-size: 16px;
+}
+
 .my-hobbies {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .btn-branding {
@@ -152,5 +161,16 @@ p {
   .about-section {
     text-align: center;
     padding: 25px;
+  }
+
+  .about-section h1 {
+    font-size: 45px;
+  }
+
+  .about-hobbies {
+    margin-top: 50px;
+  }
+  .about-me {
+    padding-bottom: 50px;
   }
 }
