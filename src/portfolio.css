@@ -4,22 +4,27 @@
   --heading-font-family: "Karma", serif;
   --default-font-family: "Zilla Slab", serif;
 }
+
 body {
   font-family: var(--default-font-family);
 }
+
 h1,
 h2,
 h3,
 h4 {
   font-family: var(--heading-font-family);
 }
+
 h1 {
   font-size: 72px;
   line-height: 1.5;
 }
+
 h2 {
   font-size: 48px;
 }
+
 p {
   font-size: 18px;
   font-weight: 500;
@@ -32,23 +37,63 @@ p {
   font-size: 72px;
   margin-bottom: 0;
 }
+
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 160px 20px;
 }
+
 .hero p {
   font-family: var(--default-font-family);
   font-weight: 600;
   font-size: 30px;
   margin: 0 0 10px;
 }
+
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: 600;
   font-size: 36px;
   opacity: 0.8;
 }
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 49px;
+  line-height: 1.1;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.my-cat {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-hobbies {
+  margin-top: 150px;
+}
+
+.about-hobbies-content {
+  margin: 30px;
+}
+
+.my-hobbies {
+  display: block;
+  margin: 0 auto;
+}
+
 .btn-branding {
   border-radius: 4px;
   color: white;
@@ -57,9 +102,11 @@ p {
   padding: 15px 30px;
   line-height: 27px;
 }
+
 .feature {
   font-size: 20px;
 }
+
 .btn-branding-outline {
   font-size: 17px;
   padding: 15px 30px;
@@ -70,28 +117,40 @@ p {
   font-weight: 500;
   background-color: var(--secondary-color);
 }
+
 .project-description {
   padding: 120px 60px;
 }
+
 @media (max-width: 992px) {
   .project-description {
     padding: 0;
     text-align: center;
   }
+
   .hero h1 {
     font-size: 44px;
     line-height: 2;
   }
+
   .hero h2 {
     font-size: 24px;
   }
+
   .hero p {
     font-size: 24px;
   }
+
   h2 {
     font-size: 40px;
   }
+
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 25px;
   }
 }
