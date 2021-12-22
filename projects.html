@@ -28,33 +28,100 @@
     <title>Projects by front-end developer - Angela Dumas</title>
   </head>
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="images/logo.png"
+            class="logo"
+            alt="Angela's logo"
+            title="Homepage"
+          />
+        </a>
+        <ul>
+          <li ><a href="/"> Home</a></li>
+          <li><a href="/about.html" title="About Angela"> About</a></li>
+          <li class="active">
+            <a href="/projects.html" title="Angela's Projects"> Projects</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Angela"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr/>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5 text-center projects-heading">Check out what I've been working on!</h1>
         <div class="row">
           <div class="col-md-6 mb-4">
             <img src="images/catproject.png" alt="cat project" class="img-fluid rounded mb-3 picture">
-            <h3 class="text-center m-0">Cat Project</h3>
+            <h3 class="text-center m-0"> <a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/510/788/original/Week_3_Project.html?1632629925" target="_blank" class="project-link"> Cat Project</a> </h3>
             <p class="text-center text-muted subheading"> Built using HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
             <img src="images/weatherapp.png" alt="weather app" class="img-fluid rounded mb-3 picture">
-            <h3 class="text-center m-0">Weather App</h3>
+            <h3 class="text-center m-0"><a href="https://serene-pike-6e3b77.netlify.app/" target="_blank" class="project-link">Weather App</a></h3>
             <p class="text-center text-muted subheading"> Built using HTML, CSS and JavaScript</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-5">
             <img src="images/dictionary.png" alt="=Dictionary Project" class="img-fluid rounded mb-3 picture">
             <h3 class="text-center m-0">Dictionary Project</h3>
             <p class="text-center text-muted subheading"> Built using HTML, CSS and React</p>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-5">
             <img src="images/translate.png" alt="translation app" class="img-fluid rounded mb-3 picture">
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted subheading"> Built using HTML, CSS and React</p>
           </div>
-      </div>
+          <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Angela"
+            >
+              Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:adumas555@gmail.com"
+            class="email-link"
+            title="E-mail Angela"
+          >
+            adumas555@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/adumas555"
+            target="_blank"
+            title="Github profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/angela-dumas-443391197/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+        <br />
+        <p class="text-center mt-4">
+          This project was coded by Angela Dumas. It is open-sourced on
+          <a href="https://github.com/adumas555/portfolio-project">GitHub</a>
+          and is hosted on
+          <a href="https://clever-bell-5e6097.netlify.app/">Netlify.</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

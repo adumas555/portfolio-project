@@ -29,29 +29,40 @@
       crossorigin="anonymous"
     ></script>
 
+    <meta
+      name="description"
+      content="Angela is a front-end developer in training based in the USA. She is looking for job and learning opportunities in the coding field. She has just started her journey and is excited to see where it leads her."
+    />
     <title>Front-end developer - Angela Dumas</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/">
-          <img src="images/logo.png" class="logo" alt="logo" />
+          <img
+            src="images/logo.png"
+            class="logo"
+            alt="Angela's logo"
+            title="Homepage"
+          />
         </a>
         <ul>
           <li class="active"><a href="/"> Home</a></li>
-          <li><a href="/about.html"> About</a></li>
-          <li><a href="/projects.html"> Projects</a></li>
-          <li><a href="/contact.html"> Contact</a></li>
+          <li><a href="/about.html" title="About Angela"> About</a></li>
+          <li>
+            <a href="/projects.html" title="Angela's Projects"> Projects</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Angela"> Contact</a></li>
         </ul>
       </nav>
     </div>
-
+    <hr />
     <div class="hero">
       <p>Hello, I am</p>
       <h1>Angela Dumas</h1>
       <h2 class="mb-5">Front-end developer based in USA</h2>
       <div>
-        <a href="contact.html" class="btn btn-branding"> Contact me</a>
+        <a href="/contact.html" class="btn btn-branding"> Contact me</a>
       </div>
     </div>
     <p class="feature text-center m-5">Featured projects</p>
@@ -60,7 +71,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/catproject.png"
-            alt="Cat project"
+            alt="Cat project preview"
             class="img-fluid rounded"
           />
         </div>
@@ -86,7 +97,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/weatherapp.png"
-            alt="Weather app"
+            alt="Weather app preview"
             class="img-fluid rounded"
           />
         </div>
@@ -112,7 +123,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/dictionary.png"
-            alt="Dictionary project"
+            alt="Dictionary project preview"
             class="img-fluid rounded"
           />
         </div>
@@ -135,7 +146,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/translate.png"
-            alt="translation app"
+            alt="Translation app preview"
             class="img-fluid rounded"
           />
         </div>
@@ -189,24 +200,45 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Angela"
+            >
+              Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:adumas555@gmail.com" class="email-link">
+          <a
+            href="mailto:adumas555@gmail.com"
+            class="email-link"
+            title="E-mail Angela"
+          >
             adumas555@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/adumas555" target="_blank"
+          <a
+            href="https://github.com/adumas555"
+            target="_blank"
+            title="Github profile"
             ><i class="fab fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/angela-dumas-443391197/"
             target="_blank"
+            title="LinkedIn"
             ><i class="fab fa-linkedin"></i
           ></a>
         </div>
+        <br />
+        <p class="text-center mt-4">
+          This project was coded by Angela Dumas. It is open-sourced on
+          <a href="https://github.com/adumas555/portfolio-project">GitHub</a>
+          and is hosted on
+          <a href="https://clever-bell-5e6097.netlify.app/">Netlify.</a>
+        </p>
       </footer>
     </div>
   </body>
