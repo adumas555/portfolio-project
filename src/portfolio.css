@@ -142,6 +142,33 @@ p {
   padding: 60px 60px;
 }
 
+.logo {
+  max-width: 110px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 40px 0 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #00489b;
+}
+
 @media (max-width: 992px) {
   .project-description {
     padding: 0;
@@ -178,6 +205,9 @@ p {
     padding: 25px;
   }
 
+  p {
+    font-size: 16px;
+  }
   .content h1 {
     font-size: 45px;
   }
@@ -191,5 +221,14 @@ p {
   }
   .projects-heading {
     font-size: 40px !important;
+  }
+  nav ul {
+    padding: 15px;
+  }
+  nav .logo {
+    width: 70px;
+  }
+  nav li {
+    margin-left: 10px;
   }
 }
