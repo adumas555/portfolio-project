@@ -89,7 +89,7 @@ p {
   margin: 30px;
 }
 
-.my-cat {
+.picture {
   display: block;
   margin: auto;
 }
@@ -100,11 +100,6 @@ p {
 
 .content-p {
   font-size: 16px;
-}
-
-.my-hobbies {
-  display: block;
-  margin: auto;
 }
 
 .subheading {
