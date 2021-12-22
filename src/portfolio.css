@@ -115,6 +115,10 @@ p {
   line-height: 27px;
 }
 
+.btn-branding:hover {
+  color: #f4f1ea;
+}
+
 .feature {
   font-size: 20px;
 }
