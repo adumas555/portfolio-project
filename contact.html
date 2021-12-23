@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Karma:wght@500;600;700&family=Zilla+Slab:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Shrikhand&display=swap"
       rel="stylesheet"
     />
 
@@ -61,16 +61,48 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch! 💬</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:adumas555@gmail.com">adumas555@gmail.com</a>
-        </p>
-        <h3>LinkedIn</h3>
-        <p>
-          <a href="https://www.linkedin.com/in/angela-dumas-443391197/"
-            >Angela Dumas</a
-          >
-        </p>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required=""
+                  autofocus=""
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required=""
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-branding">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:adumas555@gmail.com">adumas555@gmail.com</a>
+            </p>
+            <h3>LinkedIn</h3>
+            <p>
+              <a href="https://www.linkedin.com/in/angela-dumas-443391197/"
+                >Angela Dumas</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
       <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
